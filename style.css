@@ -32,10 +32,10 @@ body {
 /* Sidebar Styling */
 .sidebar {
     background-color: var(--sidebar-bg);
-    padding: 2.2rem 1.4rem;
+    padding: 1.8rem 1.2rem;
     display: flex;
     flex-direction: column;
-    gap: 2.2rem;
+    gap: 1.6rem;
 }
 
 .sidebar h2 {
@@ -89,7 +89,7 @@ body {
 }
 
 .skill-group {
-    margin-bottom: 1.2rem;
+    margin-bottom: 0.8rem;
 }
 
 .skill-group strong {
@@ -106,7 +106,7 @@ body {
 
 /* Main Content Styling */
 .main-content {
-    padding: 2.8rem 2.6rem;
+    padding: 2.4rem 2.4rem;
 }
 
 header h1 {
@@ -122,12 +122,12 @@ header h1 {
     color: var(--primary);
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    margin-bottom: 1.4rem;
+    margin-bottom: 1rem;
 }
 
 .summary {
     font-size: 0.88rem;
-    margin-bottom: 1.6rem;
+    margin-bottom: 1.2rem;
     color: var(--text-light);
     text-align: justify;
     line-height: 1.5;
@@ -138,13 +138,13 @@ header h1 {
     letter-spacing: 0.1em;
     border-bottom: 1px solid var(--border);
     padding-bottom: 0.2rem;
-    margin-bottom: 1rem;
-    margin-top: 1.8rem;
+    margin-bottom: 0.6rem;
+    margin-top: 1.2rem;
     color: var(--primary);
 }
 
 .item {
-    margin-bottom: 1.4rem;
+    margin-bottom: 1rem;
 }
 
 .item-header {
@@ -206,12 +206,12 @@ header h1 {
     }
     .sidebar {
         background-color: var(--sidebar-bg) !important;
-        padding: 2.2rem 1.4rem !important;
+        padding: 1.8rem 1.2rem !important;
         height: 297mm;
-        gap: 2.2rem !important;
+        gap: 1.6rem !important;
     }
     .main-content {
-        padding: 2.8rem 2.6rem !important;
+        padding: 2.4rem 2.4rem !important;
         height: 297mm;
     }
     header h1 {
@@ -219,20 +219,20 @@ header h1 {
     }
     .job-title {
         font-size: 1.05rem !important;
-        margin-bottom: 1.2rem !important;
+        margin-bottom: 1rem !important;
     }
     .main-content h2 {
-        margin-top: 1.6rem !important;
-        margin-bottom: 0.8rem !important;
+        margin-top: 1.2rem !important;
+        margin-bottom: 0.6rem !important;
         font-size: 1.1rem !important;
     }
     .summary {
-        margin-bottom: 1.4rem !important;
+        margin-bottom: 1.2rem !important;
         font-size: 0.85rem !important;
         line-height: 1.45 !important;
     }
     .item {
-        margin-bottom: 1.2rem !important;
+        margin-bottom: 1rem !important;
     }
     .item-desc {
         font-size: 0.85rem !important;
