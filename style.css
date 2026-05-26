@@ -16,7 +16,7 @@ body {
     font-family: 'Inter', sans-serif;
     background-color: #f5f5f5;
     color: var(--text-main);
-    line-height: 1.35;
+    line-height: 1.45;
 }
 
 .resume-container {
@@ -32,10 +32,10 @@ body {
 /* Sidebar Styling */
 .sidebar {
     background-color: var(--sidebar-bg);
-    padding: 1.8rem 1.2rem;
+    padding: 2.2rem 1.4rem;
     display: flex;
     flex-direction: column;
-    gap: 1.2rem;
+    gap: 2.2rem;
 }
 
 .sidebar h2 {
@@ -89,62 +89,62 @@ body {
 }
 
 .skill-group {
-    margin-bottom: 0.6rem;
+    margin-bottom: 1.2rem;
 }
 
 .skill-group strong {
     display: block;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     margin-bottom: 0.15rem;
 }
 
 .skill-group span {
-    font-size: 0.75rem;
+    font-size: 0.82rem;
     color: var(--text-light);
     display: block;
 }
 
 /* Main Content Styling */
 .main-content {
-    padding: 2.2rem 2.2rem;
+    padding: 2.8rem 2.6rem;
 }
 
 header h1 {
-    font-size: 2.2rem;
+    font-size: 2.6rem;
     font-weight: 800;
     line-height: 1;
-    margin-bottom: 0.4rem;
+    margin-bottom: 0.6rem;
 }
 
 .job-title {
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: 600;
     color: var(--primary);
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    margin-bottom: 0.8rem;
+    margin-bottom: 1.4rem;
 }
 
 .summary {
-    font-size: 0.8rem;
-    margin-bottom: 1rem;
+    font-size: 0.88rem;
+    margin-bottom: 1.6rem;
     color: var(--text-light);
     text-align: justify;
-    line-height: 1.4;
+    line-height: 1.5;
 }
 
 .main-content h2 {
-    font-size: 1.05rem;
+    font-size: 1.15rem;
     letter-spacing: 0.1em;
     border-bottom: 1px solid var(--border);
     padding-bottom: 0.2rem;
-    margin-bottom: 0.6rem;
-    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1.8rem;
     color: var(--primary);
 }
 
 .item {
-    margin-bottom: 0.8rem;
+    margin-bottom: 1.4rem;
 }
 
 .item-header {
@@ -157,17 +157,17 @@ header h1 {
 }
 
 .item-header strong {
-    font-size: 0.95rem;
+    font-size: 1.05rem;
 }
 
 .item-desc {
-    font-size: 0.8rem;
-    margin: 0.2rem 0;
+    font-size: 0.88rem;
+    margin: 0.4rem 0;
     color: var(--text-main);
 }
 
 .item-header .tech {
-    font-size: 0.75rem;
+    font-size: 0.85rem;
     color: var(--primary);
     font-weight: 600;
 }
@@ -177,8 +177,8 @@ header h1 {
 }
 
 .achievements li, .certifications li {
-    font-size: 0.8rem;
-    margin-bottom: 0.3rem;
+    font-size: 0.88rem;
+    margin-bottom: 0.5rem;
 }
 
 /* Print Optimizations */
@@ -208,38 +208,47 @@ header h1 {
     }
     .sidebar {
         background-color: var(--sidebar-bg) !important;
-        padding: 1.4rem 1rem !important;
+        padding: 2.2rem 1.4rem !important;
         height: 297mm;
+        gap: 2.2rem !important;
     }
     .main-content {
-        padding: 1.8rem 1.8rem !important;
+        padding: 2.8rem 2.6rem !important;
         height: 297mm;
     }
     header h1 {
-        font-size: 1.8rem !important;
+        font-size: 2.4rem !important;
     }
     .job-title {
-        font-size: 0.9rem !important;
-        margin-bottom: 0.6rem !important;
+        font-size: 1.05rem !important;
+        margin-bottom: 1.2rem !important;
     }
     .main-content h2 {
-        margin-top: 0.8rem !important;
-        margin-bottom: 0.4rem !important;
-        font-size: 1rem !important;
+        margin-top: 1.6rem !important;
+        margin-bottom: 0.8rem !important;
+        font-size: 1.1rem !important;
     }
     .summary {
-        margin-bottom: 0.8rem !important;
-        font-size: 0.75rem !important;
+        margin-bottom: 1.4rem !important;
+        font-size: 0.85rem !important;
+        line-height: 1.45 !important;
     }
     .item {
-        margin-bottom: 0.5rem !important;
+        margin-bottom: 1.2rem !important;
     }
     .item-desc {
-        font-size: 0.75rem !important;
+        font-size: 0.85rem !important;
+        line-height: 1.4 !important;
+    }
+    .item-header strong {
+        font-size: 1rem !important;
+    }
+    .item-header .tech {
+        font-size: 0.8rem !important;
     }
     .achievements li, .certifications li {
-        font-size: 0.75rem !important;
-        margin-bottom: 0.2rem !important;
+        font-size: 0.85rem !important;
+        margin-bottom: 0.4rem !important;
     }
     .no-print {
         display: none !important;
