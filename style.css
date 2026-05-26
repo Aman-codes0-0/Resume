@@ -253,7 +253,7 @@ header h1 {
     }
     a {
         color: var(--primary) !important;
-        text-decoration: none !important;
+        text-decoration: underline !important;
     }
 }
 
