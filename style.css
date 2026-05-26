@@ -190,7 +190,6 @@ header h1 {
 @media print {
     html, body {
         height: 297mm;
-        overflow: hidden;
         background: white;
         -webkit-print-color-adjust: exact;
         print-color-adjust: exact;
@@ -202,7 +201,6 @@ header h1 {
         height: 297mm;
         display: grid !important;
         grid-template-columns: 30% 70% !important;
-        overflow: hidden;
         page-break-inside: avoid;
         break-inside: avoid;
     }
